@@ -9,21 +9,13 @@
       "url": "/about"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Pages",
+      "name": "Services",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Contact",
-          "url": "/contact"
-        },
-        {
-          "name": "Blog",
-          "url": "/blog"
+          "name": "Residential Projects",
+          "url": "/"
         },
         {
           "name": "Authors",
@@ -42,6 +34,19 @@
           "url": "/404"
         }
       ]
+    },
+    {
+      "name": "Careers",
+      "url": "/elements"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog"
+    }
+    ,
+    {
+      "name": "Contact Us",
+      "url": "/contact"
     }
   ],
   "footer": [

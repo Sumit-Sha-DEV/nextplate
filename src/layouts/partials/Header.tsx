@@ -1,13 +1,14 @@
 "use client";
 
+import React, { useEffect } from "react";
+
+import { IoSearch } from "react-icons/io5/index.js";
+import Link from "next/link";
 import Logo from "@/components/Logo";
 import ThemeSwitcher from "@/components/ThemeSwitcher";
 import config from "@/config/config.json";
 import menu from "@/config/menu.json";
-import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React, { useEffect } from "react";
-import { IoSearch } from "react-icons/io5/index.js";
 
 //  child navigation link interface
 export interface IChildNavigationLink {

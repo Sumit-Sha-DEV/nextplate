@@ -1,11 +1,12 @@
-import ImageFallback from "@/helpers/ImageFallback";
-import { getListPage } from "@/lib/contentParser";
-import { markdownify } from "@/lib/utils/textConverter";
+import { Button, Feature } from "@/types";
+
 import CallToAction from "@/partials/CallToAction";
+import { FaCheck } from "react-icons/fa/index.js";
+import ImageFallback from "@/helpers/ImageFallback";
 import SeoMeta from "@/partials/SeoMeta";
 import Testimonials from "@/partials/Testimonials";
-import { Button, Feature } from "@/types";
-import { FaCheck } from "react-icons/fa/index.js";
+import { getListPage } from "@/lib/contentParser";
+import { markdownify } from "@/lib/utils/textConverter";
 
 const Home = () => {
   const homepage = getListPage("homepage/_index.md");
